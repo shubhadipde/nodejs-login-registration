@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= title %></title>
+</head>
+<body>
+	<h1>User Registration</h1>
+	<p><%= message %></p>
+	<p>
+		<form action="/registration" method="POST">
+			Name : <input type="text" name="name" /> <br />
+			Username : <input type="text" name="username" /> <br />
+			Password : <input type="password" name="password" /> <br />
+			Confirm Password : <input type="password" name="cpassword" /> <br />
+			<input type="submit" name="Submit" />
+		</form>
+	</p>
+</body>
+</html>
